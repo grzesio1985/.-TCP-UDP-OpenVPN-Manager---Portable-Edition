@@ -49,6 +49,5 @@ Kompletny, przenośny manager połączeń OpenVPN z wbudowaną automatyzacją i 
 
 ## 👨‍💻 O Autorze
 **MR GREGOR**
-*Lead Developer & Network Security Enthusiast*
 
-Projekt **GHOST-NET VPN** powstał z pasji do bezpiecznych sieci i automatyzacji. Jeśli podoba Ci się moja praca, śledź moje repozytorium po więcej aktualizacji!
+Projekt **GHOST-NET VPN** to mój prywatny, amatorski i w pełni darmowy projekt. Nie jestem zawodowym deweloperem – stworzyłem to narzędzie hobbystycznie, ucząc się obsługi sieci i skryptów. Udostępniam je za darmo dla każdego, komu może się przydać taki prosty manager OpenVPN.
