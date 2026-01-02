@@ -1,22 +1,39 @@
 # 🛡️ GHOST-NET VPN v1.0 Stable
-### **Portable TCP/UDP OpenVPN Manager**
+### **Professional Portable TCP/UDP OpenVPN Manager**
 
-Kompletny, przenośny manager połączeń OpenVPN z wbudowaną automatyzacją i unikalnym interfejsem graficznym.
+Kompletny, przenośny manager połączeń VPN z unikalnym interfejsem "Ghost Mode" i inteligentnym skanowaniem serwerów.
 
-## 🚀 Główne Funkcje
-* **Auto-Configuration**: Skrypt inteligentnie wykrywa brak pliku `Login.txt` i przeprowadza użytkownika przez konfigurację przy pierwszym starcie.
-* **Smart Latency Scanner**: Przed połączeniem system automatycznie mierzy ping dla dostępnych serwerów, aby zapewnić najszybsze połączenie.
-* **Globalna Baza Krajów**: Pełne wsparcie dla kodów krajów od **af** (Afganistan) do **vn** (Wietnam).
-* **Ghost Mode UI**: Unikalna oprawa wizualna ASCII oraz monitoring statusu połączenia na żywo.
-* **Security**: Wykorzystuje szyfrowanie AES-256-GCM oraz bezpieczne logowanie lokalne.
+---
 
-## 📦 Zawartość Paczki RAR
-* `githup.bat` — Główny silnik programu.
-* `config/` — Folder na Twoje profile `.ovpn` (TCP/UDP).
-* `README.md` — Instrukcja obsługi.
+## 📸 Dokumentacja i Funkcje Systemu
 
-## 🛠️ Jak zacząć?
-1. Pobierz i wypakuj `tcp_udp servers opemvpn.rar`.
-2. Uruchom plik `githup.bat`.
-3. Podaj swoje dane logowania VPN, gdy skrypt o to poprosi (tylko przy pierwszym uruchomieniu).
-4. Wybierz serwer i ciesz się aktywnym trybem **GHOST MODE**.
+### 1. Aktywny tryb GHOST MODE
+![Ghost Mode](menu%20tcp_udp.jpg)
+* **Interfejs**: Prezentacja grafiki ASCII po zestawieniu bezpiecznego połączenia.
+* **Dane**: Wyświetla Node IP (np. 45.11.82.84), aktywny DNS Shield (1.1.1.1) oraz lokalizację serwera (Milan).
+
+### 2. Globalna Baza Serwerów
+![Lista Krajów](menu%20tcp_ydp.png)
+* **Zasięg**: Skrypt obsługuje pełną bazę kodów krajowych od **af** do **vn**.
+* **Wybór**: Przejrzyste menu wyboru lokalizacji z całego świata.
+
+### 3. Inteligentna Analiza Latency (Ping)
+![Analiza Ping](lista%20serwerow%20tcp_udp.png)
+* **Skaner**: System automatycznie mierzy ping (ms) dla każdego serwera przed wyborem użytkownika.
+* **Weryfikacja**: Pozwala na wybór najszybszego stabilnego węzła (TCP/UDP).
+
+### 4. Moduł Speedtest
+![Speedtest](speedtest%20tcp_udp.jpg)
+* **Test**: Zintegrowany moduł pobierający plik 1GB z serwerów Hetzner.
+* **Wyniki**: Precyzyjny pomiar średniej prędkości pobierania po aktywacji VPN.
+
+---
+
+## 🚀 Jak używać?
+1. Pobierz plik `tcp_udp servers opemvpn.rar`.
+2. Wypakuj i uruchom `githup.bat`.
+3. **Auto-Configuration**: Skrypt automatycznie poprosi o dane logowania, jeśli nie wykryje pliku `Login.txt`.
+4. Wybierz kraj i ciesz się bezpiecznym tunelem.
+
+---
+**Szyfrowanie:** AES-256-GCM | **Protokoły:** TCP/UDP | **Status:** READY TO DEPLOY
